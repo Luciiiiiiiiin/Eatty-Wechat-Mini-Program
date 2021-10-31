@@ -1,0 +1,12 @@
+/* pages/exituser/exituser.wxss */
+.existing_users .head{width: 100%;height: 64px;background-color: #293142;text-align: center;}
+.existing_users .head .p1{color: #fff;font-size: 17px;display: inline-block;margin-top: 30px;}
+.existing_users .content .user{width: 42vw;display: inline-block;height: 75px;margin:15px 0 0 24.5px;border-radius: 5px;}
+.existing_users .content .user .div{width: 15vw;height: 18.5px;display: inline-block;border-radius: 10px;color: #FFF;background: #A1E5DE;text-align: center;margin-top:7px;margin-left: 8px;font-size:22rpx;line-height: 18.5px;}
+.existing_users .content .user .p{color: #FFF;margin: 11px 0 0 10px;font-size:27rpx}
+.existing_users .content .back1{background-color:#8DDFD6;}
+.existing_users .content .back2{background-color:#B6BEEE;margin-left: 8px;}
+.existing_users .content .back2 div{background-color: #D2D6F6;}
+.existing_users .btn{width: 54vw;height: 35px;background-color: #535865;margin: 0 auto;margin-top:5.6vh;border-radius:30px;}
+.existing_users .btn a{display: inline-block;width: 100%;height: 100%;text-align: center;}
+.existing_users .btn a .p{font-size:27rpx;color:#fff;line-height: 35px;}

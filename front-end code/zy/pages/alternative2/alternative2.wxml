@@ -1,0 +1,32 @@
+<!--pages/alternative2/alternative2.wxml-->
+<view class="alternative2">
+        <view class="head">
+            <image src="img/alternative2.jpg" alt=""></image>
+        </view>
+        <view class="content">
+            <view class="content_div1_head">
+                <view class="content_div1_p">{{caidan.fangan}}方案</view>
+            </view>
+            <view class="content_introduction">
+                    <view class="content_introduction_div2" wx:for="{{food2}}" wx:for-item="item">
+                        <h2>{{item.name}}</h2>
+                        <view>工艺：{{item.how}}</view>
+                        <view>口味：{{item.taste}}</view>
+                        <view>主食：{{item.food}}</view>
+                        <view>辅料：{{item.material}}</view>
+                    </view>
+            </view>
+        </view>
+        <view class="foot clearfix">
+            <view class="yes">
+                <a bindtap="yes">
+                    <view  class="p">确定</view>
+                </a>
+            </view>
+            <view class="no">
+                <a bindtap="no">
+                    <view  class="p">返回</view>
+                </a>
+            </view>
+        </view>
+    </view>

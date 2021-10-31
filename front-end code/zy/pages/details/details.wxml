@@ -1,0 +1,220 @@
+<!--pages/details/details.wxml-->
+<view class="details">
+    <view class="head">
+        <view class="p1">详情信息</view>
+    </view>
+    <view class="content">
+        <!--view class="content1">
+            <view class="content1_head">
+                <view class="vertical"></view>
+                <view class="span1">健康信息</view>
+            </view>
+            <view class="option">
+                <view class="option_ul ul">
+                <checkbox-group bindchange="checkboxChange">
+                    <view class="option_li li">
+                        <view class="option_view">
+                          <label class="checkbox">
+                            <checkbox value="tnb" />糖尿病
+                          </label>
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="gxy" />高血压
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="xzb" />心脏病
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="tf" />痛风
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="zf" />中风
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="zfg" />脂肪肝
+                        </view>
+                    </view>
+                    <view class="option_li li">
+                        <view class="option_view">
+                            <checkbox value="hy" />怀孕
+                        </view>
+                    </view>
+                </checkbox-group>
+                </view>
+            </view>
+        </view-->
+        <view class="content2">
+            <view class="content2_head">
+                <view class="vertica2"></view>
+                <view class="span2">口味偏好</view>
+            </view>
+            <view class="option2">
+                <view class="option2_ul ul">
+                  <radio-group bindchange="radioChange">
+                    <view class="option2_li li">
+                        <view class="option2_view">
+                          <view class="p">酸</view>
+                          <radio value="5" />很喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="4" />喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="3" checked/>一般
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="2" />不喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="1" />很不喜欢
+                        </view>
+                    </view>
+                  </radio-group>
+                </view>
+                <view class="option2_ul ul">
+                  <radio-group bindchange="radioChange2">
+                    <view class="option2_li li">
+                        <view class="option2_view">
+                            <view class="p">甜</view>
+                            <radio value="5" />很喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="4" />喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="3" checked />一般
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="2" />不喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="1" />很不喜欢
+                        </view>
+                    </view>
+                  </radio-group>
+                </view>
+                <view class="option2_ul ul">
+                  <radio-group bindchange="radioChange3">
+                    <view class="option2_li li">
+                        <view class="option2_view">
+                            <view class="p">苦</view>
+                            <radio value="5" />很喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="4" />喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="3" checked />一般
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="2" />不喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="1" />很不喜欢
+                        </view>
+                    </view>
+                  </radio-group>
+                </view>
+                <view class="option2_ul ul">
+                  <radio-group bindchange="radioChange4">
+                    <view class="option2_li li">
+                        <view class="option2_view">
+                            <view class="p">辣</view>
+                            <radio value="5" />很喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="4" />喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="3" checked />一般
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="2" />不喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="1" />很不喜欢
+                        </view>
+                    </view>
+                  </radio-group>
+                </view>
+                <view class="option2_ul ul">
+                  <radio-group bindchange="radioChange5">
+                    <view class="option2_li  li">
+                        <view class="option2_view">
+                            <view class="p">咸</view>
+                            <radio value="5" />很喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li  li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="4" />喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="3" checked />一般
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="2" />不喜欢
+                        </view>
+                    </view>
+                    <view class="option2_li li" style="margin-left: 0;">
+                        <view class="option2_view">
+                            <radio value="1" />很不喜欢
+                        </view>
+                    </view>
+                  </radio-group>
+                </view>
+              </view>
+        </view>
+    </view>
+    <view class="btn">
+        <a bindtap="next">
+            <view>下一步</view>
+        </a>
+    </view>
+</view>

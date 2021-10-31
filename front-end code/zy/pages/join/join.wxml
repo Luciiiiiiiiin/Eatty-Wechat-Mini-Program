@@ -1,0 +1,15 @@
+<!--pages/join/join.wxml-->
+<view class="import">
+    <view class="head">
+        <image src="img/join1.jpg" alt=""></image>
+    </view>
+    <view class="content">
+        <view class="p">请输入方案ID，加入某个方案</view>
+        <input class="weui-input" type="number" bindinput="idinput" placeholder="" />
+    </view>
+    <view class="btn">
+        <a bindtap="next">
+            <view class="p">下一步</view>
+        </a>
+    </view>
+</view>

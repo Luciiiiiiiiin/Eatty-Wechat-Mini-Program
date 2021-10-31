@@ -1,0 +1,21 @@
+<!--pages/alternative/alternative.wxml-->
+<view class="alternative">
+        <view class="head">
+            <image src="img/alternative.jpg" alt=""></image>
+        </view>
+        <view class="content">
+                <view class="content_div1" bindtap="fanganbtn" data-id="{{id}}">
+                    <view class="content_div1_head">
+                        <view class="content_div1_p">{{fangan}}方案</view>
+                    </view>
+                    <view class="ul">
+                        <view class="li">
+                            <view class="p" wx:for="{{list}}" wx:for-item="item" >{{index+1}}.{{item}}</view>
+                            <!--view class="p">2.{{item.caidan2}}</view>
+                            <view class="p">3.{{item.caidan3}}</view>
+                            <view class="p">4.{{item.caidan4}}</view-->
+                        </view>
+                    </view>
+                </view>
+        </view>
+    </view>

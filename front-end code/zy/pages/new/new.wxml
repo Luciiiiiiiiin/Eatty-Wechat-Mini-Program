@@ -1,0 +1,15 @@
+<!--pages/new.wxml-->
+<view class="index">
+        <view class="index_content1">
+            <a id="crenew" bindtap="crenew">
+                <view class="p1">建立方案</view>
+                <view class="p2">建立全新菜谱</view>
+            </a>
+        </view>
+        <view class="index_content2">
+            <a  id="addnew" bindtap="addnew">
+                <view class="p1">加入方案</view>
+                <view class="p2">将自己喜爱口味加入已存菜谱</view>
+            </a>
+        </view>
+    </view>

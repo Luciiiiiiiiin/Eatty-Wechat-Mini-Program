@@ -1,0 +1,16 @@
+<!--pages/best/best.wxml-->
+<view class="best">
+        <view class="head">
+            <view class="p1">菜单</view>
+        </view>
+        <view class="content">
+            <view class="content2">
+                <view class="p_head">最终菜单</view>
+                <view class="div">
+                    <block wx:for="{{food}}">
+                        <view class="p">{{index}}.{{item}}</view>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </view>

@@ -1,0 +1,19 @@
+<!--pages/sure/sure.wxml-->
+<view class="end">
+    <view class="head">
+        <view class="p1">菜单用户</view>
+    </view>
+    <view class="content clearfix">
+        <block wx:for="{{username}}">
+            <view class="user back1">
+                <view class="div">用户{{index+1}}</view>
+                <view class="p">{{item}}</view>
+            </view>
+        </block>
+    </view>
+    <view class="btn">
+        <a bindtap="end">
+            <view class="p">结束</view>
+        </a>
+    </view>
+</view>

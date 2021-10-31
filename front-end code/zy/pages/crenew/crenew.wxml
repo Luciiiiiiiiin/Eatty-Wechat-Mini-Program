@@ -1,0 +1,17 @@
+<!--pages/crenew.wxml-->
+<view class="join">
+    <view class="head">
+        <image src="img/join1.jpg" alt=""></image>
+    </view>
+    <view class="content">
+        <view class="p1">欢迎加入</view>
+        <view class="p2">适合你的饮食方案，不用纠结每天吃什么！</view>
+        <view class="p1">ID(标识号)：{{time}}</view>
+        <view class="p2">其他用户可选【加入方案】，并输入此ID添加个人信息</view>
+    </view>
+    <view class="btn">
+        <a bindtap="details">
+            <p>下一步</p>
+        </a>
+    </view>
+</view>

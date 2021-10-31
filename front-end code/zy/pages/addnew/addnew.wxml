@@ -1,0 +1,3 @@
+<!--pages/addnew.wxml-->
+<view><open-data type="userAvatarUrl"></open-data></view>
+<view><open-data type="userNickName"></open-data></view>

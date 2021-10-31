@@ -1,0 +1,9 @@
+/* pages/crenew.wxss */
+.join .head{width: 100%;height: 180px;}
+.join image{width: 100%;height: 100%;}
+.join .content{margin-top:5.2vh;text-align: center;}
+.join .p1{font-size: 30rpx;font-weight: 700;}
+.join .p2{font-size: 24rpx;color:#666666;margin:8px 0;}
+.join .btn{width: 54vw;height: 35px;background-color: #84DDD5;margin: 0 auto;margin-top:5.6vh;border-radius:30px;}
+.join .btn a{display: inline-block;width: 100%;height: 100%;text-align: center;}
+.join .btn a p{font-size:27rpx;color:#fff;line-height: 35px;}

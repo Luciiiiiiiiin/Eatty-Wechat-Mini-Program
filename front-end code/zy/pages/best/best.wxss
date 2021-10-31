@@ -1,0 +1,16 @@
+/* pages/best/best.wxss */
+.best .head{width: 100%;height: 64px;background-color: #293142;text-align: center;}
+.best .head .p1{color: #fff;font-size: 17px;display: inline-block;margin-top: 30px;}
+.best .content .content1{width: 67vw;margin: 0 auto;height: 227px;border: 1px solid #FFF;margin-top: 53px;text-align: center;position: relative;}
+.best .content .content1 .fz{font-size: 40rpx;color:#FFF;}
+.best .content .content1 image{width: 100%;height: 84%;}
+.best .content .content1 .plan1{position: absolute;bottom: 62px;left: 27vw;}
+.best .content .content1 .plan2{position: absolute;bottom: 62px;left: 4vw;}
+.best .content .content1 .plan3{position: absolute;bottom: 62px;left: 48vw;}
+.best .content .content2{width: 87vw;margin: 0 auto;box-shadow: 1px 1px 10px 5px #eee;border-radius: 15px;text-align: center;padding-bottom: 20px;margin-top:10px;background: #49c1e6;color:#fff}
+.best .content .content2 .p_head{display: inline-block;font-size: 1rem;margin-top: 20px;}
+.best .content .content2 .div {margin-left: 30vw;}
+.best .content .content2 .div .p{font-size: 1rem;text-align: left;margin: 7px 0;}
+.best .btn{width: 54vw;height: 35px;background-color: #8DDFD6;margin: 0 auto;margin-top:5.6vh;border-radius:30px;}
+.best .btn a{display: inline-block;width: 100%;height: 100%;text-align: center;}
+.best .btn a .p{font-size:1rem;color:#fff;line-height: 35px;}

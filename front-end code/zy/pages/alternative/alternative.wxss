@@ -1,0 +1,22 @@
+/* pages/alternative/alternative.wxss */
+.alternative .head{width: 100%;height: 180px;}
+.alternative .head image{width: 100%;height: 100%;}
+.alternative .content .content_div1{width: 84vw;display: inline-block;background-color: #88DED7;border-radius: 12px;margin-top: 36px;margin-left: 25px;padding-bottom: 10px;padding-top: 10px;}
+.alternative .content .content_div1 .content_div1_head{width: 90%;height: 30.5px;border-bottom: 1px solid #FFF;text-align: center;margin: 0 auto;color: #FFF;font-weight: 700;}
+.alternative .content .content_div1 .content_div1_p{display: inline-block;font-weight: 700;font-size: 34rpx;}
+.alternative .content .content_div1 .ul .li .p{margin-left: 10px;color:#FFF;font-size:27rpx;}
+/*.alternative .content .content_div2{width: 42vw;height: 120px;display: inline-block;background-color: #C1C9F4;border-radius: 12px;margin-top: 36px;margin-left: 9px;}
+.alternative .content .content_div2 .content_div2_head{width: 90%;height: 30.5px;border-bottom: 1px solid #FFF;text-align: center;margin: 0 auto;color: #FFF;font-weight: 700;}
+.alternative .content .content_div2 .content_div2_p{display: inline-block;font-weight: 700;font-size: 34rpx;}
+.alternative .content .content_div2 .ul .li .p{margin-left: 10px;color:#FFF;font-size:27rpx;}
+.alternative .content .content_div3{width: 42vw;height: 120px;display: inline-block;background-color: #FEA697;border-radius: 12px;margin-top: 36px;margin-left: 25px;}
+.alternative .content .content_div3 .content_div3_head{width: 90%;height: 30.5px;border-bottom: 1px solid #FFF;text-align: center;margin: 0 auto;color: #FFF;font-weight: 700;}
+.alternative .content .content_div3 .content_div3_p{display: inline-block;font-weight: 700;font-size: 34rpx;}
+.alternative .content .content_div3 .ul .li .p{margin-left: 10px;color:#FFF;font-size:27rpx;}
+.alternative .content .content_div4{width: 42vw;height: 120px;display: inline-block;background-color: #D3C0EC;border-radius: 12px;margin-top: 36px;margin-left: 9px;}
+.alternative .content .content_div4 .content_div4_head{width: 90%;height: 30.5px;border-bottom: 1px solid #FFF;text-align: center;margin: 0 auto;color: #FFF;font-weight: 700;}
+.alternative .content .content_div4 .content_div4_p{display: inline-block;font-weight: 700;font-size: 34rpx;}
+.alternative .content .content_div4 .ul .li .p{margin-left: 10px;color:#FFF;font-size:27rpx;}*/
+.alternative .btn{width: 54vw;height: 35px;background-color: #84DDD5;margin: 0 auto;margin-top:5.6vh;border-radius:30px;}
+.alternative .btn a{display: inline-block;width: 100%;height: 100%;text-align: center;}
+.alternative .btn a .p{font-size:27rpx;color:#fff;line-height: 35px;}

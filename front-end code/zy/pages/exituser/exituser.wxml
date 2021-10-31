@@ -1,0 +1,21 @@
+<!--pages/exituser/exituser.wxml-->
+<view class="existing_users">
+    <view class="head">
+        <p class="p1">目前已加入用户</p>
+    </view>
+    <view class="content clearfix">
+        <view class="user back1">
+            <view class="div">用户1</view>
+            <view class="p">张三李四</view>
+        </view>
+        <view class="user back2">
+            <view class="div">用户1</view>
+            <view class="p">张三李四</view>
+        </view>
+    </view>
+    <view class="btn">
+        <a href="./alternative.html">
+            <view class='p'>生成菜单</view>
+        </a>
+    </view>
+</view>
