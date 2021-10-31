@@ -1,7 +1,6 @@
 <?php
 
 class PublicAction extends CommonAction{
-	//刘总儿子作业函数和easyland无关
     public function index(){
        	$newbook=M('Zybook');
        	$newid=$_GET['newid'];
